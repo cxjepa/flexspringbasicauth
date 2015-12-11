@@ -7,6 +7,7 @@ The idea is to use Javascript/JQuery just for communication retrieving the respo
 
 The following 
 
+```
 function getUser() {
 	$.ajax({
         type: 'GET',
@@ -29,5 +30,6 @@ function getUser() {
         }
     });
 }
+```
 
 can be easily adapted to be a more general purpose passing as parameters the type and url.
